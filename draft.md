@@ -42,7 +42,7 @@ So I built one.
 
 **Caveats**: YouTube audio compression isn't ideal for acoustic analysis. Some videos included ambient noise or reverb that could shift the detected fundamental. I excluded samples where the spectral peak was ambiguous. The final dataset includes 41 vehicles where I had high confidence in the frequency measurement.
 
-The full dataset and analysis code are available on [GitHub](https://github.com/simondoh/car-honks).
+The full dataset and analysis code are available on [GitHub](https://github.com/sangmino/car-honks).
 
 ## The Results
 
@@ -163,4 +163,4 @@ The data now exists. The coordination problem remains unsolved. And somewhere in
 
 ---
 
-*The dataset and analysis code are available on [GitHub](https://github.com/simondoh/car-honks). If you extend this analysis, I'd love to hear about it.*
+*The dataset and analysis code are available on [GitHub](https://github.com/sangmino/car-honks). If you extend this analysis, I'd love to hear about it.*
