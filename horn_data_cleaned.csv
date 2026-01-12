@@ -1,0 +1,42 @@
+filename,fundamental_hz,fundamental_note,dual_horn,make,model,country,segment,is_luxury
+bmw_x5_2023.wav,177.64892578125,F3 (+29 cents),,BMW,X5,Germany,luxury_suv,True
+chevrolet_tahoe_2023.wav,538.330078125,C5 (+49 cents),656.7626953125,Chevrolet,Tahoe,USA,full_suv,False
+honda_civic_2023.wav,344.53125,F4 (-23 cents),,Honda,Civic,Japan,compact,False
+ford_escape_2023.wav,403.74755859375,G#4 (-48 cents),,Ford,Escape,USA,compact_suv,False
+tesla_model_s.wav,414.51416015625,G#4 (-3 cents),,Tesla,Model,USA,other,False
+hyundai_santa_fe_2023.wav,129.19921875,C3 (-21 cents),,Hyundai,Santa Fe,Korea,midsize_suv,False
+chevrolet_corvette_2023.wav,769.81201171875,G5 (-31 cents),,Chevrolet,Corvette,USA,sports,False
+nissan_rogue_2023.wav,301.46484375,D4 (+45 cents),,Nissan,Rogue,Japan,compact_suv,False
+ford_f-150_2023.wav,516.796875,C5 (-21 cents),,Ford,F-150,USA,truck,False
+chevrolet_malibu_2023.wav,511.41357421875,C5 (-39 cents),,Chevrolet,Malibu,USA,midsize,False
+toyota_rav4_2023.wav,247.6318359375,B4 (+4 cents),,Toyota,Rav4,Japan,compact_suv,False
+kia_sorento_2023.wav,522.18017578125,C5 (-3 cents),678.2958984375,Kia,Sorento,Korea,midsize_suv,False
+ford_bronco_2023.wav,495.263671875,B5 (+4 cents),,Ford,Bronco,USA,suv,False
+honda_hr-v_2023.wav,624.462890625,D#5 (+6 cents),479.11376953125,Honda,Hr-V,Japan,subcompact_suv,False
+kia_sportage_2023.wav,430.6640625,A5 (-37 cents),,Kia,Sportage,Korea,compact_suv,False
+hyundai_tucson_2023.wav,489.88037109375,B5 (-14 cents),,Hyundai,Tucson,Korea,compact_suv,False
+bmw_x3_2023.wav,64.599609375,C2 (-21 cents),,BMW,X3,Germany,luxury_suv,True
+nissan_pathfinder_2023.wav,430.6640625,A5 (-37 cents),322.998046875,Nissan,Pathfinder,Japan,midsize_suv,False
+toyota_tacoma_2023.wav,414.51416015625,G#4 (-3 cents),,Toyota,Tacoma,Japan,truck,False
+honda_pilot_2023.wav,387.59765625,G4 (-19 cents),,Honda,Pilot,Japan,midsize_suv,False
+nissan_sentra_2023.wav,662.14599609375,E5 (+7 cents),,Nissan,Sentra,Japan,compact,False
+chevrolet_equinox_2023.wav,500.64697265625,B5 (+23 cents),,Chevrolet,Equinox,USA,compact_suv,False
+mercedes_c-class_2023.wav,511.41357421875,C5 (-39 cents),,Mercedes-Benz,C-Class,Germany,luxury_sedan,True
+toyota_camry_2023.wav,484.4970703125,B5 (-33 cents),,Toyota,Camry,Japan,midsize,False
+toyota_highlander_2023.wav,543.71337890625,C#5 (-33 cents),,Toyota,Highlander,Japan,midsize_suv,False
+hyundai_sonata_2023.wav,436.04736328125,A5 (-15 cents),,Hyundai,Sonata,Korea,midsize,False
+bmw_3_series_2023.wav,398.3642578125,G4 (+27 cents),,BMW,3 Series,Germany,luxury_sedan,True
+honda_accord_2023.wav,403.74755859375,G#4 (-48 cents),,Honda,Accord,Japan,midsize,False
+bmw_i4_2023.wav,500.64697265625,B5 (+23 cents),,BMW,I4,Germany,ev_luxury,True
+mercedes_e-class_2023.wav,274.54833984375,C#4 (-16 cents),,Mercedes-Benz,E-Class,Germany,luxury_sedan,True
+kia_k5_2023.wav,629.84619140625,D#5 (+20 cents),,Kia,K5,Korea,midsize,False
+chevrolet_silverado_2023.wav,419.8974609375,G#4 (+19 cents),,Chevrolet,Silverado,USA,truck,False
+tesla_model_x.wav,403.74755859375,G#4 (-48 cents),,Tesla,Model,USA,other,False
+tesla_model_y.wav,253.01513671875,B4 (+42 cents),,Tesla,Model,USA,other,False
+kia_telluride_2023.wav,511.41357421875,C5 (-39 cents),,Kia,Telluride,Korea,full_suv,False
+mercedes_gle_2023.wav,247.6318359375,B4 (+4 cents),,Mercedes-Benz,Gle,Germany,luxury_suv,True
+nissan_frontier_2023.wav,500.64697265625,B5 (+23 cents),,Nissan,Frontier,Japan,truck,False
+mercedes_a-class_2023.wav,500.64697265625,B5 (+23 cents),,Mercedes-Benz,A-Class,Germany,compact_luxury,True
+ford_mustang_2023.wav,495.263671875,B5 (+4 cents),,Ford,Mustang,USA,sports,False
+bmw_5_series_2023.wav,414.51416015625,G#4 (-3 cents),,BMW,5 Series,Germany,luxury_sedan,True
+tesla_cybertruck.wav,419.8974609375,G#4 (+19 cents),,Tesla,,USA,other,False
