@@ -8,7 +8,7 @@ I was standing at a Manhattan intersection when three cars honked simultaneously
 
 This got me wondering: who decides what pitch a car horn should be? Is there a standard? And if everyone's honking at once, shouldn't someone be coordinating?
 
-## Psychoacoustics and Regulation
+## The Psychoacoustics and Regulation of Annoyance
 
 Why do some horns sound "better" than others? The answer lies in how our brains process sound.
 
@@ -37,8 +37,6 @@ So I built one.
 **Methodology**: I searched YouTube for horn sound tests for 215 vehicles across 15 manufacturers (Toyota, Honda, Nissan, Mazda, Subaru, Lexus, Hyundai, Kia, Ford, Chevrolet, Tesla, BMW, Mercedes-Benz, Audi, and Volkswagen). For each video, I extracted the audio, isolated the horn segment, and ran a Fast Fourier Transform to identify the fundamental frequency. The analysis pipeline used Python's `librosa` library with a 4096-sample FFT window, identifying peaks in the 200-800 Hz range most likely to represent the horn's fundamental.
 
 **Caveats**: YouTube audio compression isn't ideal for acoustic analysis. Some videos included ambient noise or reverb that could shift the detected fundamental. I excluded samples where the spectral peak was ambiguous or fell outside the plausible 150-850 Hz range. The final dataset includes 157 vehicles where I had high confidence in the frequency measurement.
-
-The full dataset and analysis code are available on [GitHub](https://github.com/sangmino/car-honks).
 
 **What do these horns actually sound like?** Here are a few samples from the dataset:
 
@@ -120,6 +118,22 @@ But when multiple cars honk at once, all that individual optimization creates a 
 
 Economists call this a **coordination failure**. Each player is acting rationally, but the outcome is worse than if they'd coordinated. It's the same logic behind traffic jams (everyone takes the "fastest" route, which makes it slow), overfishing (each boat maximizes its catch, depleting the stock), and, apparently, Manhattan soundscapes.
 
+### Quantifying the Cacophony
+
+To make this concrete, I ran a Monte Carlo simulation. What happens if we randomly select three cars from the dataset and have them honk simultaneously?
+
+![Distribution of 3-car chord dissonance](figures/fig5_dissonance_monte_carlo.png)
+
+Using the **Sethares-Plomp-Levelt dissonance model** from psychoacoustics, I computed the "roughness" of 10,000 random 3-car combinations. This model, developed by William Sethares based on the foundational work of Plomp and Levelt, captures how our cochlea perceives interference between frequencies. When two tones are close but not identical, they create a wobbling interference pattern, a sensation of roughness that we experience as dissonance.
+
+The results are striking:
+
+- Only **16%** of random trios achieve consonance comparable to a major chord
+- **71%** sound worse than a diminished chord, a notoriously unstable harmony
+- The median random intersection produces a dissonance score of 0.90, falling between a minor triad (0.41) and a diminished chord (0.62)
+
+The worst manufacturer pairings cluster around 25-30 Hz apart: Ford (453 Hz) paired with Lexus (480 Hz), or Honda (435 Hz) with Kia (460 Hz). At this spacing, the frequencies fall squarely in the "roughness zone," where our ears perceive maximum unpleasantness. Paradoxically, the *best* pairings are either very close (Subaru and Volkswagen, just 1 Hz apart, which fuse into a single perceived tone) or very far (Mercedes-Benz at 351 Hz with Mazda at 468 Hz, spanning a musical interval wide enough to sound like a chord rather than a clash).
+
 So what would a social planner do with car horns? She might assign frequencies to manufacturers to ensure harmony. Toyota gets 440 Hz. Honda gets 523 Hz (a major third up). BMW gets 659 Hz (a perfect fifth). Now when all three honk at once, they form a major chord. The intersection becomes a symphony.
 
 This isn't as crazy as it sounds. We already do this for radio frequencies: the FCC assigns spectrum so stations don't interfere with each other. Musicians worldwide agreed that A=440 Hz so orchestras can tune together. Why not horns?
@@ -153,6 +167,8 @@ The road not taken is coordination. If you knew every other manufacturer's frequ
 5. **Traffic noise imposes $110 billion in annual costs**, and EVs could capture $77 billion of that as a noise reduction benefit.
 
 6. **EVs actually do sound different**: With 20 EVs in the sample, electric vehicles average 61 Hz lower than ICE vehicles, possibly due to packaging advantages or premium positioning.
+
+7. **Most random horn combinations are dissonant**: Monte Carlo simulation shows 71% of random 3-car combinations produce more dissonance than a diminished chord. The worst pairings are 25-30 Hz apart (Ford + Lexus, Honda + Kia).
 
 **Questions for future research:**
 
