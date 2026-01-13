@@ -247,6 +247,59 @@ def main():
         print(f"  {row['make1']} ({row['freq1']:.0f} Hz) + {row['make2']} ({row['freq2']:.0f} Hz)")
         print(f"    Difference: {row['diff']:.0f} Hz, Dissonance: {row['dissonance']:.3f}")
 
+    # Find perfect musical intervals in the data
+    print("\n" + "-" * 40)
+    print("PERFECT MUSICAL INTERVALS IN THE DATA")
+    print("-" * 40)
+
+    intervals = [
+        ("Perfect fifth (3:2)", 1.5, 0.005),
+        ("Major third (5:4)", 1.25, 0.005),
+        ("Perfect octave (2:1)", 2.0, 0.005),
+    ]
+
+    for name, ratio, tolerance in intervals:
+        print(f"\n  {name}:")
+        for i in range(len(df)):
+            for j in range(i+1, len(df)):
+                f1 = min(df.iloc[i]['fundamental_hz'], df.iloc[j]['fundamental_hz'])
+                f2 = max(df.iloc[i]['fundamental_hz'], df.iloc[j]['fundamental_hz'])
+                actual_ratio = f2 / f1
+                if abs(actual_ratio - ratio) < tolerance:
+                    car1 = f"{df.iloc[i]['make']} {df.iloc[i]['model']}"
+                    car2 = f"{df.iloc[j]['make']} {df.iloc[j]['model']}"
+                    print(f"    {car1} ({f1:.0f} Hz) + {car2} ({f2:.0f} Hz) = {actual_ratio:.4f}")
+                    break  # Just show first example
+            else:
+                continue
+            break
+
+    # Build the harmonious fleet (major chord)
+    print("\n" + "-" * 40)
+    print("THE HARMONIOUS FLEET (Major Chord)")
+    print("-" * 40)
+
+    ideal_base, ideal_third, ideal_fifth = 400, 500, 600
+
+    def find_closest(target, exclude_idx=[]):
+        diffs = np.abs(df['fundamental_hz'].values - target)
+        for idx in exclude_idx:
+            diffs[idx] = float('inf')
+        return np.argmin(diffs)
+
+    idx1 = find_closest(ideal_base)
+    idx2 = find_closest(ideal_third, [idx1])
+    idx3 = find_closest(ideal_fifth, [idx1, idx2])
+
+    print(f"\n  Root (~400 Hz): {df.iloc[idx1]['make']} {df.iloc[idx1]['model']} ({df.iloc[idx1]['fundamental_hz']:.0f} Hz)")
+    print(f"  Major 3rd (~500 Hz): {df.iloc[idx2]['make']} {df.iloc[idx2]['model']} ({df.iloc[idx2]['fundamental_hz']:.0f} Hz)")
+    print(f"  Perfect 5th (~600 Hz): {df.iloc[idx3]['make']} {df.iloc[idx3]['model']} ({df.iloc[idx3]['fundamental_hz']:.0f} Hz)")
+
+    fleet_freqs = [df.iloc[idx1]['fundamental_hz'], df.iloc[idx2]['fundamental_hz'], df.iloc[idx3]['fundamental_hz']]
+    print(f"\n  Fleet dissonance: {chord_dissonance(fleet_freqs):.4f}")
+    print(f"  Perfect major chord: {chord_dissonance([400, 500, 600]):.4f}")
+    print(f"  Typical random trio: {median:.4f}")
+
     # Generate figure
     print("\n" + "-" * 40)
     print("GENERATING FIGURE")
