@@ -28,13 +28,22 @@ colors = {
 }
 
 make_colors = {
+    # German (blues)
     'BMW': '#2171b5',
     'Mercedes-Benz': '#4292c6',
+    'Audi': '#6baed6',
+    'Volkswagen': '#9ecae1',
+    # Japanese (reds/oranges)
     'Toyota': '#cb181d',
     'Honda': '#fb6a4a',
     'Nissan': '#ef3b2c',
+    'Mazda': '#fc9272',
+    'Subaru': '#fcbba1',
+    'Lexus': '#fee0d2',
+    # Korean (greens)
     'Hyundai': '#238b45',
     'Kia': '#41ab5d',
+    # American (purples)
     'Ford': '#6a51a3',
     'Chevrolet': '#807dba',
     'Tesla': '#9e9ac8'
@@ -126,7 +135,7 @@ fig, ax = plt.subplots(figsize=(8, 6))
 luxury_stats = df.groupby('is_luxury')['fundamental_hz'].agg(['mean', 'std', 'count']).reset_index()
 luxury_stats = luxury_stats.sort_values('is_luxury', ascending=False)
 
-labels = ['Luxury\n(BMW, Mercedes)', 'Mass Market']
+labels = ['Luxury\n(BMW, Mercedes,\nAudi, Lexus)', 'Mass Market']
 means = luxury_stats['mean'].values
 stds = luxury_stats['std'].values
 counts = luxury_stats['count'].values

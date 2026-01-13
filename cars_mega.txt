@@ -1,0 +1,244 @@
+# Toyota (15 models)
+Toyota Camry 2023
+Toyota Corolla 2023
+Toyota RAV4 2023
+Toyota Highlander 2023
+Toyota Tacoma 2023
+Toyota 4Runner 2023
+Toyota Sienna 2023
+Toyota Prius 2023
+Toyota Tundra 2023
+Toyota Supra 2023
+Toyota Venza 2023
+Toyota Sequoia 2023
+Toyota GR86 2023
+Toyota Crown 2023
+Toyota bZ4X 2023
+
+# Honda (15 models)
+Honda Civic 2023
+Honda Accord 2023
+Honda CR-V 2023
+Honda Pilot 2023
+Honda HR-V 2023
+Honda Odyssey 2023
+Honda Passport 2023
+Honda Ridgeline 2023
+Honda Insight 2023
+Honda Prologue 2023
+Honda Fit 2023
+Honda Element 2023
+Honda CR-Z 2023
+Honda S2000
+Honda NSX 2023
+
+# Ford (15 models)
+Ford F-150 2023
+Ford Mustang 2023
+Ford Explorer 2023
+Ford Escape 2023
+Ford Bronco 2023
+Ford Ranger 2023
+Ford Edge 2023
+Ford Expedition 2023
+Ford Maverick 2023
+Ford Mustang Mach-E 2023
+Ford F-250 2023
+Ford Transit 2023
+Ford Fusion 2023
+Ford Focus 2023
+Ford GT 2023
+
+# Chevrolet (15 models)
+Chevrolet Silverado 2023
+Chevrolet Equinox 2023
+Chevrolet Malibu 2023
+Chevrolet Tahoe 2023
+Chevrolet Corvette 2023
+Chevrolet Traverse 2023
+Chevrolet Blazer 2023
+Chevrolet Colorado 2023
+Chevrolet Camaro 2023
+Chevrolet Suburban 2023
+Chevrolet Bolt 2023
+Chevrolet Trax 2023
+Chevrolet Trailblazer 2023
+Chevrolet Spark 2023
+Chevrolet Impala 2023
+
+# Hyundai (15 models)
+Hyundai Elantra 2023
+Hyundai Sonata 2023
+Hyundai Tucson 2023
+Hyundai Santa Fe 2023
+Hyundai Kona 2023
+Hyundai Palisade 2023
+Hyundai Ioniq 5 2023
+Hyundai Ioniq 6 2023
+Hyundai Santa Cruz 2023
+Hyundai Venue 2023
+Hyundai Accent 2023
+Hyundai Veloster 2023
+Hyundai Genesis Coupe 2023
+Hyundai Nexo 2023
+Hyundai Kona Electric 2023
+
+# Nissan (15 models)
+Nissan Altima 2023
+Nissan Sentra 2023
+Nissan Rogue 2023
+Nissan Pathfinder 2023
+Nissan Frontier 2023
+Nissan Armada 2023
+Nissan Murano 2023
+Nissan Kicks 2023
+Nissan Maxima 2023
+Nissan Titan 2023
+Nissan Leaf 2023
+Nissan Ariya 2023
+Nissan Z 2023
+Nissan Versa 2023
+Nissan GT-R 2023
+
+# Kia (15 models)
+Kia Forte 2023
+Kia K5 2023
+Kia Sportage 2023
+Kia Telluride 2023
+Kia Sorento 2023
+Kia Seltos 2023
+Kia Carnival 2023
+Kia EV6 2023
+Kia Soul 2023
+Kia Niro 2023
+Kia Stinger 2023
+Kia Rio 2023
+Kia EV9 2023
+Kia K8 2023
+Kia Cadenza 2023
+
+# BMW (15 models)
+BMW 3 Series 2023
+BMW 5 Series 2023
+BMW X3 2023
+BMW X5 2023
+BMW i4 2023
+BMW 7 Series 2023
+BMW X1 2023
+BMW X7 2023
+BMW M3 2023
+BMW M5 2023
+BMW iX 2023
+BMW 4 Series 2023
+BMW 8 Series 2023
+BMW Z4 2023
+BMW 2 Series 2023
+
+# Mercedes-Benz (15 models)
+Mercedes C-Class 2023
+Mercedes E-Class 2023
+Mercedes S-Class 2023
+Mercedes GLC 2023
+Mercedes GLE 2023
+Mercedes A-Class 2023
+Mercedes GLA 2023
+Mercedes GLB 2023
+Mercedes CLA 2023
+Mercedes EQS 2023
+Mercedes EQE 2023
+Mercedes AMG GT 2023
+Mercedes G-Class 2023
+Mercedes GLS 2023
+Mercedes Maybach 2023
+
+# Tesla (5 models - full lineup)
+Tesla Model 3
+Tesla Model Y
+Tesla Model S
+Tesla Model X
+Tesla Cybertruck
+
+# Subaru (15 models)
+Subaru Outback 2023
+Subaru Forester 2023
+Subaru Crosstrek 2023
+Subaru Impreza 2023
+Subaru WRX 2023
+Subaru Legacy 2023
+Subaru Ascent 2023
+Subaru BRZ 2023
+Subaru Solterra 2023
+Subaru Baja 2023
+Subaru XV 2023
+Subaru Tribeca 2023
+Subaru Levorg 2023
+Subaru STI 2023
+Subaru SVX 2023
+
+# Mazda (15 models)
+Mazda CX-5 2023
+Mazda CX-30 2023
+Mazda CX-50 2023
+Mazda CX-9 2023
+Mazda Mazda3 2023
+Mazda Mazda6 2023
+Mazda MX-5 Miata 2023
+Mazda CX-90 2023
+Mazda MX-30 2023
+Mazda CX-3 2023
+Mazda RX-8 2023
+Mazda RX-7 2023
+Mazda CX-60 2023
+Mazda 2 2023
+Mazda 5 2023
+
+# Volkswagen (15 models)
+Volkswagen Golf 2023
+Volkswagen Jetta 2023
+Volkswagen Tiguan 2023
+Volkswagen Atlas 2023
+Volkswagen ID.4 2023
+Volkswagen Passat 2023
+Volkswagen Taos 2023
+Volkswagen Arteon 2023
+Volkswagen GTI 2023
+Volkswagen Golf R 2023
+Volkswagen ID.Buzz 2023
+Volkswagen Beetle 2023
+Volkswagen Touareg 2023
+Volkswagen CC 2023
+Volkswagen Eos 2023
+
+# Audi (15 models)
+Audi A4 2023
+Audi A6 2023
+Audi Q5 2023
+Audi Q7 2023
+Audi e-tron 2023
+Audi A3 2023
+Audi Q3 2023
+Audi A8 2023
+Audi Q8 2023
+Audi TT 2023
+Audi R8 2023
+Audi RS6 2023
+Audi S4 2023
+Audi A5 2023
+Audi Q4 e-tron 2023
+
+# Lexus (15 models)
+Lexus RX 2023
+Lexus ES 2023
+Lexus NX 2023
+Lexus IS 2023
+Lexus GX 2023
+Lexus LX 2023
+Lexus UX 2023
+Lexus RC 2023
+Lexus LC 2023
+Lexus LS 2023
+Lexus RZ 2023
+Lexus TX 2023
+Lexus CT 2023
+Lexus LFA 2023
+Lexus SC 2023

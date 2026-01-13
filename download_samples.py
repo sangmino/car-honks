@@ -67,7 +67,7 @@ def main():
     cars = []
     if args.from_list:
         with open(args.from_list) as f:
-            cars = [line.strip() for line in f if line.strip()]
+            cars = [line.strip() for line in f if line.strip() and not line.strip().startswith('#')]
     elif args.query:
         cars = [args.query]
     else:
