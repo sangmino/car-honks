@@ -1,0 +1,95 @@
+Toyota Camry 2023
+Toyota Corolla 2023
+Toyota RAV4 2023
+Toyota Highlander 2023
+Toyota Tacoma 2023
+Toyota Prius 2023
+Toyota 4Runner 2023
+Toyota Tundra 2023
+Toyota Sienna 2023
+Toyota Supra 2023
+Ford F-150 2023
+Ford Mustang 2023
+Ford Explorer 2023
+Ford Escape 2023
+Ford Bronco 2023
+Ford Ranger 2023
+Ford Expedition 2023
+Ford Edge 2023
+Ford Maverick 2023
+Ford Mustang Mach-E 2023
+Chevrolet Silverado 2023
+Chevrolet Equinox 2023
+Chevrolet Malibu 2023
+Chevrolet Tahoe 2023
+Chevrolet Corvette 2023
+Chevrolet Camaro 2023
+Chevrolet Traverse 2023
+Chevrolet Colorado 2023
+Chevrolet Blazer 2023
+Chevrolet Bolt 2023
+Honda Civic 2023
+Honda Accord 2023
+Honda CR-V 2023
+Honda Pilot 2023
+Honda HR-V 2023
+Honda Odyssey 2023
+Honda Ridgeline 2023
+Honda Passport 2023
+Honda Insight 2023
+Honda Prologue 2023
+Hyundai Elantra 2023
+Hyundai Sonata 2023
+Hyundai Tucson 2023
+Hyundai Santa Fe 2023
+Hyundai Kona 2023
+Hyundai Palisade 2023
+Hyundai Ioniq 5 2023
+Hyundai Ioniq 6 2023
+Hyundai Santa Cruz 2023
+Hyundai Venue 2023
+Nissan Altima 2023
+Nissan Sentra 2023
+Nissan Rogue 2023
+Nissan Pathfinder 2023
+Nissan Frontier 2023
+Nissan Murano 2023
+Nissan Kicks 2023
+Nissan Armada 2023
+Nissan Leaf 2023
+Nissan Ariya 2023
+Kia Forte 2023
+Kia K5 2023
+Kia Sportage 2023
+Kia Telluride 2023
+Kia Sorento 2023
+Kia Carnival 2023
+Kia Seltos 2023
+Kia Soul 2023
+Kia EV6 2023
+Kia Niro 2023
+BMW 3 Series 2023
+BMW 5 Series 2023
+BMW X3 2023
+BMW X5 2023
+BMW i4 2023
+BMW X1 2023
+BMW 7 Series 2023
+BMW iX 2023
+BMW M3 2023
+BMW Z4 2023
+Mercedes C-Class 2023
+Mercedes E-Class 2023
+Mercedes GLC 2023
+Mercedes GLE 2023
+Mercedes A-Class 2023
+Mercedes S-Class 2023
+Mercedes GLA 2023
+Mercedes EQS 2023
+Mercedes EQE 2023
+Mercedes AMG GT 2023
+Tesla Model 3
+Tesla Model Y
+Tesla Model S
+Tesla Model X
+Tesla Cybertruck

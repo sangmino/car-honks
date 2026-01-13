@@ -1,15 +1,15 @@
 # Car Horn Frequency Analysis
 
-Analysis of car horn frequencies across 41 vehicles from 10 manufacturers. Data and code for the Better Know A Dataset blog post: "The Optimal Pitch of the Car Honk."
+Analysis of car horn frequencies across 68 vehicles from 10 manufacturers. Data and code for the Better Know A Dataset blog post: "The Optimal Pitch of the Car Honk."
 
 ## Key Findings
 
-- **German cars (BMW, Mercedes)**: 343 Hz average (lowest)
-- **Japanese cars (Toyota, Honda, Nissan)**: 445 Hz average
-- **Korean cars (Hyundai, Kia)**: 450 Hz average
-- **American cars (Ford, Chevrolet, Tesla)**: 472 Hz average (highest)
+- **German cars (BMW, Mercedes)**: 384 Hz average (lowest)
+- **Japanese cars (Toyota, Honda, Nissan)**: 453 Hz average
+- **Korean cars (Hyundai, Kia)**: 498 Hz average
+- **American cars (Ford, Chevrolet, Tesla)**: 460 Hz average
 
-Luxury vehicles average 343 Hz vs. 457 Hz for mass market—a gap of roughly a major third.
+Luxury vehicles average 384 Hz vs. 467 Hz for mass market. EVs show no systematic difference from ICE vehicles (459 Hz vs 450 Hz).
 
 ## Files
 
